@@ -15,7 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-import { Container, Grid } from '@mui/material';
+import { Container } from '@mui/material';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',

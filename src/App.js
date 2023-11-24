@@ -35,9 +35,9 @@ function App() {
         </Grid>
         ))}
       </Grid>
-      <Grid style={{marginTop:"1rem",display:'flex'}} item xs={12} md={12}>
+      <Grid style={{marginTop:"1rem",display:'flex', justifyContent:"center"}} item xs={12} md={12}>
         <Pagination 
-        style={{color:"black",width:"100%",justifyContent:"space-evenly"}} 
+        style={{color:"black",width:"100%", justifyContent:"center",display:"flex"}} 
         count={10}  
         
         color="secondary" />
